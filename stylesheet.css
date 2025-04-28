@@ -92,3 +92,36 @@ button
     font-size: 16px;
     font-weight: 500;
 }
+.sidebar
+{
+    
+    border: 1px solid black;
+    padding: 20px 30px;
+    margin: 30px;
+}
+.sidebar h2
+{
+ font-weight: 500;
+}
+.sidebar h3
+{
+    font-weight: 500;
+    margin: 20px 0 10px;
+
+}
+.filter
+{
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-bottom: 10px;
+}
+.filter p
+{
+    flex: 1;
+}
+.filter input
+{
+    margin-right: 15px;
+    cursor: pointer;
+}
