@@ -1,0 +1,31 @@
+#front
+{
+    background-image: url(https://www.ford.com/cmslibs/content/dam/brand_ford/en_us/brand/legacy/nameplate/cars/18_mst_segment_landing_32.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg);
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: black solid 1.5px;
+}
+.block
+{
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+button
+{
+    color: white;
+    background-color: black;
+    size: 70px;
+}
+.other
+{
+    text-align: right;
+}
