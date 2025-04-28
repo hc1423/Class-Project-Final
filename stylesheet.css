@@ -24,6 +24,13 @@ button
     color: white;
     background-color: black;
     size: 70px;
+   
+}
+a:visited, a:link
+{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
 }
 .other
 {
