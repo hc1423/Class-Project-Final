@@ -27,5 +27,68 @@ button
 }
 .other
 {
+    text-align: center;
+}
+.list-container
+{
+ margin-top: 50px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+.leftc
+{
+    flex-basis: 70%;
+}
+.rightc
+{
+    flex-basis: 25%;
+}
+.leftc h1
+{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.car
+{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    border-top: 1px solid black;
+}
+.car-img 
+{
+    flex-basis: 40%;
+}
+.car-info 
+{
+    flex-basis: 58%;
+    color: gray;
+}
+.car-img img
+{
+    width: 100%;
+    border-radius: 12px;
+}
+.car-info h3
+{
+    font-weight: 600;
+    color:  #353535;
+    font-size: 22px;
+    margin: 4px 0;
+}
+.car-price
+{
     text-align: right;
+}
+.car-price h4
+{
+    font-size: 20px;
+}
+.car-price h4 span
+{
+    font-size: 16px;
+    font-weight: 500;
 }
