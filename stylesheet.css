@@ -26,7 +26,7 @@ button
     size: 70px;
    
 }
-a:visited, a:link
+button a:visited, a:link
 {
     color: white;
     text-decoration: none;
@@ -131,4 +131,31 @@ a:visited, a:link
 {
     margin-right: 15px;
     cursor: pointer;
+}
+.other
+{
+    padding-top: 10px ;
+    margin: 0 2.5%;
+    background-color: #cccccc;
+    padding-bottom: 10px;
+
+}
+.other2
+{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 2.5%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.other2-l
+{
+    flex-basis: 45%;
+    float: left;
+}
+.other2-r
+{
+    flex-basis: 45%;
+    float:right;
 }
