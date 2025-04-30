@@ -68,6 +68,7 @@ button a:visited, a:link
 .car-img 
 {
     flex-basis: 40%;
+    margin-left: 10px;
 }
 .car-info 
 {
