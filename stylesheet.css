@@ -64,6 +64,12 @@ button a:visited, a:link
     flex-wrap: wrap;
     padding: 30px 0;
     border-top: 1px solid black;
+   
+        min-width: 250px;
+        min-height: 300px;
+        box-sizing: border-box;
+    
+      
 }
 .car-img 
 {
@@ -100,6 +106,10 @@ button a:visited, a:link
     font-size: 16px;
     font-weight: 500;
 }
+.car.hidden {
+    display: none; /* or use opacity: 0; visibility: hidden for smooth transitions */
+  }
+  
 .sidebar
 {
     
