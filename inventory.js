@@ -1,5 +1,5 @@
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function (){
     // Gets type of car through querySelector and gets seats as well 
     const typeCheckboxes = document.querySelectorAll('input[name="car-type"]');
     const seatCheckboxes = document.querySelectorAll('input[name="seats"]');
