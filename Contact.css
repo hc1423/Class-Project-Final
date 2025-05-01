@@ -50,3 +50,13 @@ input#email, input#questions{
         text-align: center;
     }
 }
+
+div#output{
+
+    #text{   
+    padding: 15%;
+    text-align: center;
+    margin: auto;
+    }
+
+}
