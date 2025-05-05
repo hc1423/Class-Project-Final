@@ -9,9 +9,9 @@ window.addEventListener("load", function(){
    let t = "";
    t += "Thank You So Much, " + urlParams.get('firstName') + " " + urlParams.get('lastName') + "<br>";
    t += "We will contact you within 10 to 15 minutes" + "<br>" + "<br>";
-   t += "Please Confirm That Is The Correct Email To Reach Out To";
-   t += "<br>" + "<br>"
-   t += urlParams.get('email');
+  // t += "Please Confirm That Is The Correct Email To Reach Out To";
+   //t += "<br>" + "<br>"
+   //t += urlParams.get('email');
 
    const i = document.getElementById('output');
    
